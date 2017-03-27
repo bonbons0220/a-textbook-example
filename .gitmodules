@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/wptextbook"]
+	path = wp-content/themes/wptextbook
+	url = git@github.com:bonbons0220/wptextbook.git

@@ -1,0 +1,26 @@
+#AuthType Basic
+#AuthName "Under Development"
+#AuthUserfile /data1/dswww-ln01/idies.jhu.edu/test/.htpasswd
+#Require valid-user
+
+<IfModule mod_authz_host.c>
+#Order Deny,Allow
+#Deny from all
+#Allow from jhu.edu
+</IfModule>
+
+#
+# Redirect for Recount
+RedirectMatch 302 ^/(recount)/?$ https://jhubiostatistics.shinyapps.io/recount/
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

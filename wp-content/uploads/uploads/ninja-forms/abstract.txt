@@ -1,0 +1,32 @@
+Cosmological N-body simulations are essential for 
+studies of the large-scale distribution of matter and galaxies
+in the Universe. This analysis often involves finding clusters of
+particles and retrieving their properties. Detecting such “halos”
+among a very large set of particles is a computationally intensive
+problem, usually executed on the same super-computers
+that produced the simulations, requiring huge amounts of
+memory.
+Recently, a new area of computer science emerged. This area,
+called streaming algorithms, provides new theoretical methods
+to compute data analytics in a scalable way using only a single
+pass over a data sets and logarithmic memory.
+The main contribution of this paper is a novel connection
+between the N-body simulations and the streaming algorithms.
+In particular, we investigate a link between halo finders and
+the problem of finding frequent items (heavy hitters) in a
+data stream, that should greatly reduce the computational
+resource requirements, especially the memory needs. Based on
+this connection, we can build a new halo finder by running
+efficient heavy hitter algorithms as a black-box. We implement
+two representatives of the family of heavy hitter algorithms, the
+Count-Sketch algorithm (CS) and the Pick-and-Drop sampling
+(PD), and evaluate their accuracy and memory usage. Comparison
+with other halo-finding algorithms from [1] shows that
+our halo finder can locate the largest haloes using significantly
+smaller memory space and with comparable running time.
+This streaming approach makes it possible to run and analyze
+extremely large data sets from N-body simulations on a
+smaller machine, rather than on supercomputers. Our findings
+demonstrate the connection between the halo search problem
+and streaming algorithms as a promising initial direction of
+further research.

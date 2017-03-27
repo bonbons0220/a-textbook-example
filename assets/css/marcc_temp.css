@@ -1,0 +1,72 @@
+body {
+    background-color: #FFF1E6;
+    background-image: url("/assets/images/construction.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+	color:#005D5D;
+}
+.content{
+	margin: 150px auto 50px auto;
+	width:70%;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=63i0R0kw0w0jyC+oRxVy4oIDfjr */
+
+/* Feel free to copy&paste color codes to your application */
+
+
+/* As hex codes */
+
+.full-primary-0 { color: #009999 }	/* Main Primary color */
+.full-primary-1 { color: #46B2B2 }
+.full-primary-2 { color: #249F9F }
+.full-primary-3 { color: #007676 }
+.full-primary-4 { color: #005D5D }
+
+.full-secondary-1-0 { color: #8BEA00 }	/* Main Secondary color (1) */
+.full-secondary-1-1 { color: #B4EF5D }
+.full-secondary-1-2 { color: #A1EB35 }
+.full-secondary-1-3 { color: #6BB500 }
+.full-secondary-1-4 { color: #548E00 }
+
+.full-secondary-2-0 { color: #2E16B1 }	/* Main Secondary color (2) */
+.full-secondary-2-1 { color: #6C5CC4 }
+.full-secondary-2-2 { color: #4D3AB5 }
+.full-secondary-2-3 { color: #231088 }
+.full-secondary-2-4 { color: #190A6B }
+
+.full-complement-0 { color: #FF7400 }	/* Main Complement color */
+.full-complement-1 { color: #FFAA63 }
+.full-complement-2 { color: #FF9339 }
+.full-complement-3 { color: #C55900 }
+.full-complement-4 { color: #9B4600 }
+
+/* begin pale*/
+
+.pale-primary-0 { color: #B0E9E9 }	/* Main Primary color */
+.pale-primary-1 { color: #E2FBFB }
+.pale-primary-2 { color: #C9F3F3 }
+.pale-primary-3 { color: #95DCDC }
+.pale-primary-4 { color: #7BCCCC }
+
+.pale-secondary-1-0 { color: #E1FBBD }	/* Main Secondary color (1) */
+.pale-secondary-1-1 { color: #F4FEE5 }
+.pale-secondary-1-2 { color: #EBFDD1 }
+.pale-secondary-1-3 { color: #D7F8A8 }
+.pale-secondary-1-4 { color: #CDF594 }
+
+.pale-secondary-2-0 { color: #C3BBEE }	/* Main Secondary color (2) */
+.pale-secondary-2-1 { color: #E9E6FC }
+.pale-secondary-2-2 { color: #D7D1F6 }
+.pale-secondary-2-3 { color: #AEA4E4 }
+.pale-secondary-2-4 { color: #998DD8 }
+
+.pale-complement-0 { color: #FFDDC0 }	/* Main Complement color */
+.pale-complement-1 { color: #FFF1E6 }
+.pale-complement-2 { color: #FFE7D3 }
+.pale-complement-3 { color: #FFD2AD }
+.pale-complement-4 { color: #FFC89A }
+
