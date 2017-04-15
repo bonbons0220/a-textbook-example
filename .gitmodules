@@ -1,12 +1,9 @@
 [submodule "wp-content/themes/wptextbook"]
 	path = wp-content/themes/wptextbook
 	url = git@github.com:bonbons0220/wptextbook.git
-[submodule "https:/github.com/bonbons0220/wp-style-guide"]
-	path = https:/github.com/bonbons0220/wp-style-guide
-	url = git@github.com:bonbons0220/wp-style-guide.git
-[submodule "wp-content/plugins/wp-style-guide"]
-	path = wp-content/plugins/wp-style-guide
-	url = git@github.com:bonbons0220/wp-style-guide.git
 [submodule "wp-content/plugins/wptb-core"]
 	path = wp-content/plugins/wptb-core
 	url = git@github.com:bonbons0220/wptb-core.git
+[submodule "wp-content/plugins/wp-style-guide"]
+	path = wp-content/plugins/wp-style-guide
+	url = git@github.com:bonbons0220/wp-style-guide.git
